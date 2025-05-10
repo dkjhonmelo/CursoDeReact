@@ -76,7 +76,7 @@ function App() {
   return (
     <div className="w-screen h-screen bg-slate-500 flex justify-center p-6">
       <div className="w-[500px] space-y-4">
-        <Title>Gerenciador de Tarefas</Title>
+        <Title>Gerenciador de Tarefas - JhonDK 2025-05-10</Title>
         <AddTask onAdd={onTaskAdd} />
         <Tasks base={tasks} fx={onTaskClick} fx2={onTaskDelete} />
       </div>
